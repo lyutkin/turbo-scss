@@ -1,0 +1,32 @@
+{
+  "name": "turbo-scss",
+  "version": "1.0.0",
+  "description": "Composable human-readable CSS utility classes",
+  "repository": "lyutkin/turbo-scss",
+  "keywords": [
+    "responsive",
+    "css",
+    "scss",
+    "utility",
+    "module",
+    "helper",
+    "functional",
+    "performance",
+    "design"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "start": "gulp"
+  }
+}

@@ -1,0 +1,98 @@
+.overflow-hidden {
+  overflow: hidden;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+.overflow-scroll {
+  overflow: scroll;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow: scroll;
+      }
+    }
+  }
+}
+
+.overflow-auto {
+  overflow: auto;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow: auto;
+      }
+    }
+  }
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow-x: hidden;
+      }
+    }
+  }
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow-x: scroll;
+      }
+    }
+  }
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow-x: auto;
+      }
+    }
+  }
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow-y: hidden;
+      }
+    }
+  }
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow-y: scroll;
+      }
+    }
+  }
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        overflow-y: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+$i: 100;
+
+@while $i <= 900 {
+  .font-weight-#{$i} {
+    font-weight: #{$i};
+  }
+  $i: $i + 100;
+}

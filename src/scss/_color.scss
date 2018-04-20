@@ -1,0 +1,5 @@
+@each $colorName, $colorValue in $colorList {
+  .color-#{$colorName} {
+    color: #{$colorValue};
+  }
+}

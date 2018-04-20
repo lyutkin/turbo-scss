@@ -1,0 +1,5 @@
+@each $colorName, $colorValue in $colorList {
+  .bg-#{$colorName} {
+    background-color: #{$colorValue};
+  }
+}

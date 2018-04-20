@@ -1,0 +1,5 @@
+@each $colorName, $colorValue in $colorList {
+  .border-#{$colorName} {
+    border-color: #{$colorValue};
+  }
+}
