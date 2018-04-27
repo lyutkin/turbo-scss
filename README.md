@@ -216,6 +216,10 @@ Usage examples:
 | `right-0` | `right: 0` | :heavy_check_mark: |
 | `bottom-0` | `bottom: 0` | :heavy_check_mark: |
 | `left-0` | `left: 0` | :heavy_check_mark: |
+| `top-full` | `top: 100%` | :heavy_check_mark: |
+| `right-full` | `right: 100%` | :heavy_check_mark: |
+| `bottom-full` | `bottom: 100%` | :heavy_check_mark: |
+| `left-full` | `left: 100%` | :heavy_check_mark: |
 | `fixed` | `position: fixed` | :heavy_check_mark: |
 | `fill` | `top: 0`<br />`right: 0`<br />`bottom: 0`<br />`left: 0` | :heavy_check_mark: |
 

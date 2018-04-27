@@ -64,6 +64,50 @@
   }
 }
 
+.top-full {
+  top: 100%;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        top: 100%;
+      }
+    }
+  }
+}
+
+.right-full {
+  right: 100%;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        right: 100%;
+      }
+    }
+  }
+}
+
+.bottom-full {
+  bottom: 100%;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        bottom: 100%;
+      }
+    }
+  }
+}
+
+.left-full {
+  left: 100%;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        left: 100%;
+      }
+    }
+  }
+}
+
 .fixed {
   position: fixed;
   @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
