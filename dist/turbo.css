@@ -965,6 +965,14 @@
   background-size: contain;
 }
 
+.bg-width-full {
+  background-size: 100% auto;
+}
+
+.bg-height-full {
+  background-size: auto 100%;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }

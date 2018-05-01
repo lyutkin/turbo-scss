@@ -498,6 +498,8 @@ Usage examples:
 | - | - | :-: |
 | `bg-cover` | `background-size: cover` | :x: |
 | `bg-contain` | `background-size: contain` | :x: |
+| `bg-width-full` | `background-size: 100% auto` | :x: |
+| `bg-height-full` | `background-size: auto 100%` | :x: |
 
 <br />
 
