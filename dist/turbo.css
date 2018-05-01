@@ -689,6 +689,11 @@
   margin-right: auto;
 }
 
+.margin-y-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .padding-top-0 {
   padding-top: 0;
 }
@@ -2376,6 +2381,11 @@
     margin-right: auto;
   }
 
+  .margin-y-auto--sm {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .padding-top-0--sm {
     padding-top: 0;
   }
@@ -3161,6 +3171,11 @@
     margin-right: auto;
   }
 
+  .margin-y-auto--md {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .padding-top-0--md {
     padding-top: 0;
   }
@@ -3944,6 +3959,11 @@
   .margin-x-auto--lg {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .margin-y-auto--lg {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .padding-top-0--lg {
@@ -4761,6 +4781,11 @@
     margin-right: auto;
   }
 
+  .margin-y-auto--xl {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .padding-top-0--xl {
     padding-top: 0;
   }
@@ -5544,6 +5569,11 @@
   .margin-x-auto--xxl {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .margin-y-auto--xxl {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .padding-top-0--xxl {

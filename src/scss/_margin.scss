@@ -98,3 +98,16 @@
     }
   }
 }
+
+.margin-y-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+}

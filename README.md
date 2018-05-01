@@ -322,7 +322,22 @@ Usage examples:
 | `margin-left-4` | `margin-left: 2rem` | :heavy_check_mark: |
 | `margin-left-5` | `margin-left: 4rem` | :heavy_check_mark: |
 | `margin-left-6` | `margin-left: 8rem` | :heavy_check_mark: |
-
+| `margin-x-0` | `margin-left: 0`<br />`margin-right: 0` | :heavy_check_mark: |
+| `margin-x-1` | `margin-left: 0.25rem`<br />`margin-right: 0.25rem` | :heavy_check_mark: |
+| `margin-x-2` | `margin-left: 0.5rem`<br />`margin-right: 0.5rem` | :heavy_check_mark: |
+| `margin-x-3` | `margin-left: 1rem`<br />`margin-right: 1rem` | :heavy_check_mark: |
+| `margin-x-4` | `margin-left: 2rem`<br />`margin-right: 2rem` | :heavy_check_mark: |
+| `margin-x-5` | `margin-left: 4rem`<br />`margin-right: 4rem` | :heavy_check_mark: |
+| `margin-x-6` | `margin-left: 8rem`<br />`margin-right: 8rem` | :heavy_check_mark: |
+| `margin-y-0` | `margin-top: 0`<br />`margin-bottom: 0` | :heavy_check_mark: |
+| `margin-y-1` | `margin-top: 0.25rem`<br />`margin-bottom: 0.25rem` | :heavy_check_mark: |
+| `margin-y-2` | `margin-top: 0.5rem`<br />`margin-bottom: 0.5rem` | :heavy_check_mark: |
+| `margin-y-3` | `margin-top: 1rem`<br />`margin-bottom: 1rem` | :heavy_check_mark: |
+| `margin-y-4` | `margin-top: 2rem`<br />`margin-bottom: 2rem` | :heavy_check_mark: |
+| `margin-y-5` | `margin-top: 4rem`<br />`margin-bottom: 4rem` | :heavy_check_mark: |
+| `margin-y-6` | `margin-top: 8rem`<br />`margin-bottom: 8rem` | :heavy_check_mark: |
+| `margin-x-auto` | `margin-left: auto`<br />`margin-right: auto` | :heavy_check_mark: |
+| `margin-y-auto` | `margin-top: auto`<br />`margin-bottom: auto` | :heavy_check_mark: |
 <br />
 
 ### Padding
