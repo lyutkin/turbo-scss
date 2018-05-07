@@ -338,6 +338,7 @@ Usage examples:
 | `margin-y-6` | `margin-top: 8rem`<br />`margin-bottom: 8rem` | :heavy_check_mark: |
 | `margin-x-auto` | `margin-left: auto`<br />`margin-right: auto` | :heavy_check_mark: |
 | `margin-y-auto` | `margin-top: auto`<br />`margin-bottom: auto` | :heavy_check_mark: |
+
 <br />
 
 ### Padding
@@ -387,7 +388,6 @@ Usage examples:
   ```css
 .dim {
 	opacity: 1;
-	transition: opacity 0.2s ease;
 }
 
 .dim:hover,
