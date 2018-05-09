@@ -1,0 +1,7 @@
+.toggle-control {
+  &:checked {
+    & ~ .toggle-content {
+      display: block;
+    }
+  }
+}

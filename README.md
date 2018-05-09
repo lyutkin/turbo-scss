@@ -47,7 +47,7 @@ npm install turbo-scss
 
 # Docs
 - Responsiveness: [Breakpoint support](#breakpoint-support)
-- Content flow: [Box sizing](#box-sizing), [Display](#display), [Flex](#flex), [Grid](#grid), [Overflow](#overflow), [Float](#float), [Position](#position), [Z-index](#z-index)  
+- Content flow: [Box sizing](#box-sizing), [Display](#display), [Flex](#flex), [Grid](#grid), [Overflow](#overflow), [Float](#float), [Position](#position), [Z-index](#z-index), [Toggle](#toggle)  
 - Sizing: [Width](#width), [Height](#height)  
 - Spacing: [Margin](#margin), [Padding](#padding)  
 - Interaction: [Hover](#hover), [Transition](#transition), [Cursor](#cursor), [Pointer events](#pointer-events), [User select](#user-select)  
@@ -244,6 +244,22 @@ Usage examples:
 | `z-999` | `z-index: 999` | :x: |
 | `z-9999` | `z-index: 9999` | :x: |
 | `z-max` | `z-index: 2147483647` | :x: |
+
+<br />
+
+### Toggle
+[↑ Back to contents](#docs)
+
+| Class  | Style  | Breakpoint support |
+| - | - | :-: |
+| `toggle-control` | Toggle `toggle-content` somewhere after it <sup>1</sup> | :x: |
+
+1.
+  ```css
+.toggle-control:checked ~ .toggle-content {
+  display: block;
+}
+ ```
 
 <br />
 

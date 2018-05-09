@@ -51,6 +51,10 @@
   display: none;
 }
 
+.toggle-control:checked ~ .toggle-content {
+  display: block;
+}
+
 .justify-start {
   justify-content: flex-start;
 }
