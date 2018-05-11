@@ -53,3 +53,35 @@
     }
   }
 }
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-x-#{$nameSizeSuffix} {
+    padding-left: $valueSizeSuffix;
+    padding-right: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-left: $valueSizeSuffix;
+          padding-right: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}
+
+@each $nameSizeSuffix, $valueSizeSuffix in $sizeList {
+  .padding-y-#{$nameSizeSuffix} {
+    padding-top: $valueSizeSuffix;
+    padding-bottom: $valueSizeSuffix;
+    @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList
+    {
+      &--#{$nameBreakpointSuffix} {
+        @include respondTo(#{$valueBreakpointSuffix}) {
+          padding-top: $valueSizeSuffix;
+          padding-bottom: $valueSizeSuffix;
+        }
+      }
+    }
+  }
+}

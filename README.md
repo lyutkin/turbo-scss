@@ -390,6 +390,20 @@ Usage examples:
 | `padding-left-4` | `padding-left: 2rem` | :heavy_check_mark: |
 | `padding-left-5` | `padding-left: 4rem` | :heavy_check_mark: |
 | `padding-left-6` | `padding-left: 8rem` | :heavy_check_mark: |
+| `padding-x-0` | `padding-left: 0`<br />`padding-right: 0` | :heavy_check_mark: |
+| `padding-x-1` | `padding-left: 0.25rem`<br />`padding-right: 0.25rem` | :heavy_check_mark: |
+| `padding-x-2` | `padding-left: 0.5rem`<br />`padding-right: 0.5rem` | :heavy_check_mark: |
+| `padding-x-3` | `padding-left: 1rem`<br />`padding-right: 1rem` | :heavy_check_mark: |
+| `padding-x-4` | `padding-left: 2rem`<br />`padding-right: 2rem` | :heavy_check_mark: |
+| `padding-x-5` | `padding-left: 4rem`<br />`padding-right: 4rem` | :heavy_check_mark: |
+| `padding-x-6` | `padding-left: 8rem`<br />`padding-right: 8rem` | :heavy_check_mark: |
+| `padding-y-0` | `padding-top: 0`<br />`padding-bottom: 0` | :heavy_check_mark: |
+| `padding-y-1` | `padding-top: 0.25rem`<br />`padding-bottom: 0.25rem` | :heavy_check_mark: |
+| `padding-y-2` | `padding-top: 0.5rem`<br />`padding-bottom: 0.5rem` | :heavy_check_mark: |
+| `padding-y-3` | `padding-top: 1rem`<br />`padding-bottom: 1rem` | :heavy_check_mark: |
+| `padding-y-4` | `padding-top: 2rem`<br />`padding-bottom: 2rem` | :heavy_check_mark: |
+| `padding-y-5` | `padding-top: 4rem`<br />`padding-bottom: 4rem` | :heavy_check_mark: |
+| `padding-y-6` | `padding-top: 8rem`<br />`padding-bottom: 8rem` | :heavy_check_mark: |
 
 <br />
 
