@@ -160,6 +160,28 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
+| `grid-column-1` | `grid-column: span 1 / span 1` | :heavy_check_mark: |
+| `grid-column-2` | `grid-column: span 2 / span 2` | :heavy_check_mark: |
+| `grid-column-3` | `grid-column: span 3 / span 3` | :heavy_check_mark: |
+| `grid-column-4` | `grid-column: span 4 / span 4` | :heavy_check_mark: |
+| `grid-column-6` | `grid-column: span 6 / span 6` | :heavy_check_mark: |
+| `grid-column-12` | `grid-column: span 12 / span 12` | :heavy_check_mark: |
+| `grid-column-gap-1` | `grid-column-gap: 0.25rem` | :heavy_check_mark: |
+| `grid-column-gap-2` | `grid-column-gap: 0.5rem` | :heavy_check_mark: |
+| `grid-column-gap-3` | `grid-column-gap: 1rem` | :heavy_check_mark: |
+| `grid-column-gap-4` | `grid-column-gap: 2rem` | :heavy_check_mark: |
+| `grid-column-gap-5` | `grid-column-gap: 3rem` | :heavy_check_mark: |
+| `grid-column-gap-6` | `grid-column-gap: 4rem` | :heavy_check_mark: |
+| `grid-column-gap-7` | `grid-column-gap: 5rem` | :heavy_check_mark: |
+| `grid-column-gap-8` | `grid-column-gap: 6rem` | :heavy_check_mark: |
+| `grid-row-gap-1` | `grid-row-gap: 0.25rem` | :heavy_check_mark: |
+| `grid-row-gap-2` | `grid-row-gap: 0.5rem` | :heavy_check_mark: |
+| `grid-row-gap-3` | `grid-row-gap: 1rem` | :heavy_check_mark: |
+| `grid-row-gap-4` | `grid-row-gap: 2rem` | :heavy_check_mark: |
+| `grid-row-gap-5` | `grid-row-gap: 3rem` | :heavy_check_mark: |
+| `grid-row-gap-6` | `grid-row-gap: 4rem` | :heavy_check_mark: |
+| `grid-row-gap-7` | `grid-row-gap: 5rem` | :heavy_check_mark: |
+| `grid-row-gap-8` | `grid-row-gap: 6rem` | :heavy_check_mark: |
 | `grid-gap-1` | `grid-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-gap-2` | `grid-gap: 0.5rem` | :heavy_check_mark: |
 | `grid-gap-3` | `grid-gap: 1rem` | :heavy_check_mark: |
@@ -168,12 +190,6 @@ Usage examples:
 | `grid-gap-6` | `grid-gap: 4rem` | :heavy_check_mark: |
 | `grid-gap-7` | `grid-gap: 5rem` | :heavy_check_mark: |
 | `grid-gap-8` | `grid-gap: 6rem` | :heavy_check_mark: |
-| `grid-column-1` | `grid-column: span 1 / span 1` | :heavy_check_mark: |
-| `grid-column-2` | `grid-column: span 2 / span 2` | :heavy_check_mark: |
-| `grid-column-3` | `grid-column: span 3 / span 3` | :heavy_check_mark: |
-| `grid-column-4` | `grid-column: span 4 / span 4` | :heavy_check_mark: |
-| `grid-column-6` | `grid-column: span 6 / span 6` | :heavy_check_mark: |
-| `grid-column-12` | `grid-column: span 12 / span 12` | :heavy_check_mark: |
 
 <br />
 
