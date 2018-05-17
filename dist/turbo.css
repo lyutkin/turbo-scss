@@ -4383,22 +4383,6 @@
     opacity: 0.9;
   }
 
-  .transition-bg {
-    transition: background-color 0.2s ease;
-  }
-
-  .transition-color {
-    transition: color 0.2s ease;
-  }
-
-  .transition-opacity {
-    transition: opacity 0.2s ease;
-  }
-
-  .transition-shadow {
-    transition: box-shadow 0.2s ease;
-  }
-
   .font-xs--lg {
     font-size: 0.75rem;
   }

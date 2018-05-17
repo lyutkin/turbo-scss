@@ -1,6 +1,6 @@
 {
   "name": "turbo-scss",
-  "version": "1.5.2",
+  "version": "2.0.0",
   "description": "Composable human-readable CSS utility classes",
   "repository": "lyutkin/turbo-scss",
   "keywords": [

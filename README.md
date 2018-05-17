@@ -50,7 +50,7 @@ npm install turbo-scss
 - Content flow: [Box sizing](#box-sizing), [Display](#display), [Flex](#flex), [Grid](#grid), [Overflow](#overflow), [Float](#float), [Position](#position), [Z-index](#z-index), [Toggle](#toggle)  
 - Sizing: [Width](#width), [Height](#height)  
 - Spacing: [Margin](#margin), [Padding](#padding)  
-- Interaction: [Hover](#hover), [Transition](#transition), [Cursor](#cursor), [Pointer events](#pointer-events), [User select](#user-select)  
+- Interaction: [Hover](#hover), [Cursor](#cursor), [Pointer events](#pointer-events), [User select](#user-select)  
 - Appearance: [Opacity](#opacity), [Background position](#background-position), [Background size](#background-size), [Background repeat](#background-repeat), [Background color](#background-color), [Border radius](#border-radius), [Border width](#border-width), [Border style](#border-style), [Border color](#border-color)  
 - Text: [Font family](#font-family), [Font size](#font-size), [Font style](#font-style), [Font weight](#font-weight), [Letter spacing](#letter-spacing), [Line height](#line-height), [Vertical align](#vertical-align), [White space](#white-space), [Word break](#word-break), [Text transform](#text-transform), [Text decoration](#text-decoration), [Text align](#text-align), [Color](#color), [Typography](#typography)
 - Misc: [Reset](#reset), [Debug](#debug)
@@ -412,7 +412,7 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `dim` | Transition opacity on `hover`/`focus`/`active` <sup>1</sup> | :x: |
+| `dim` | Change opacity on `hover`/`focus`/`active` <sup>1</sup> | :x: |
 
 1.
   ```css
@@ -429,18 +429,6 @@ Usage examples:
 	opacity: 0.9;
 }
  ```
-
-<br />
-
-### Transition
-[↑ Back to contents](#docs)
-
-| Class  | Style  | Breakpoint support |
-| - | - | :-: |
-| `transition-bg` | `transition: background-color 0.2s ease` | :x: |
-| `transition-color` | `transition: color 0.2s ease` | :x: |
-| `transition-opacity` | `transition: opacity 0.2s ease` | :x: |
-| `transition-shadow` | `transition: box-shadow 0.2s ease` | :x: |
 
 <br />
 
