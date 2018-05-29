@@ -164,7 +164,13 @@ Usage examples:
 | `grid-column-2` | `grid-column: span 2 / span 2` | :heavy_check_mark: |
 | `grid-column-3` | `grid-column: span 3 / span 3` | :heavy_check_mark: |
 | `grid-column-4` | `grid-column: span 4 / span 4` | :heavy_check_mark: |
+| `grid-column-5` | `grid-column: span 5 / span 5` | :heavy_check_mark: |
 | `grid-column-6` | `grid-column: span 6 / span 6` | :heavy_check_mark: |
+| `grid-column-7` | `grid-column: span 7 / span 7` | :heavy_check_mark: |
+| `grid-column-8` | `grid-column: span 8 / span 8` | :heavy_check_mark: |
+| `grid-column-9` | `grid-column: span 9 / span 9` | :heavy_check_mark: |
+| `grid-column-10` | `grid-column: span 10 / span 10` | :heavy_check_mark: |
+| `grid-column-11` | `grid-column: span 11 / span 11` | :heavy_check_mark: |
 | `grid-column-12` | `grid-column: span 12 / span 12` | :heavy_check_mark: |
 | `grid-column-gap-1` | `grid-column-gap: 0.25rem` | :heavy_check_mark: |
 | `grid-column-gap-2` | `grid-column-gap: 0.5rem` | :heavy_check_mark: |
