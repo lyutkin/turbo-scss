@@ -42,6 +42,17 @@
   }
 }
 
+.width-auto {
+  width: auto;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        width: auto;
+      }
+    }
+  }
+}
+
 .width-5 {
   width: 5%;
   @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {

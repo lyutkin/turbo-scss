@@ -294,6 +294,7 @@ Usage examples:
 | `min-width-none` | `min-width: 0` | :heavy_check_mark: |
 | `min-width-full` | `min-width: 100%` | :heavy_check_mark: |
 | `width-full` | `width: 100%` | :heavy_check_mark: |
+| `width-auto` | `width: auto` | :heavy_check_mark: |
 | `width-5` | `width: 5%` | :heavy_check_mark: |
 | `width-10` | `width: 10%` | :heavy_check_mark: |
 | `width-15` | `width: 15%` | :heavy_check_mark: |

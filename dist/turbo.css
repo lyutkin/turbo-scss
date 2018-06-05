@@ -506,6 +506,10 @@
   width: 100%;
 }
 
+.width-auto {
+  width: auto;
+}
+
 .width-5 {
   width: 5%;
 }
@@ -2364,6 +2368,10 @@
     width: 100%;
   }
 
+  .width-auto--sm {
+    width: auto;
+  }
+
   .width-5--sm {
     width: 5%;
   }
@@ -3312,6 +3320,10 @@
     width: 100%;
   }
 
+  .width-auto--md {
+    width: auto;
+  }
+
   .width-5--md {
     width: 5%;
   }
@@ -4258,6 +4270,10 @@
 
   .width-full--lg {
     width: 100%;
+  }
+
+  .width-auto--lg {
+    width: auto;
   }
 
   .width-5--lg {
@@ -5221,6 +5237,10 @@
     width: 100%;
   }
 
+  .width-auto--xl {
+    width: auto;
+  }
+
   .width-5--xl {
     width: 5%;
   }
@@ -6167,6 +6187,10 @@
 
   .width-full--xxl {
     width: 100%;
+  }
+
+  .width-auto--xxl {
+    width: auto;
   }
 
   .width-5--xxl {
