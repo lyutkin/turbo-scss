@@ -828,10 +828,9 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `text-center` | `text-align: center` | :x: |
-| `text-left` | `text-align: left` | :x: |
-| `text-right` | `text-align: right` | :x: |
-| `text-justify` | `text-align: justify` | :x: |
+| `text-center` | `text-align: center` | :heavy_check_mark: |
+| `text-left` | `text-align: left` | :heavy_check_mark: |
+| `text-right` | `text-align: right` | :heavy_check_mark: |
 
 <br />
 

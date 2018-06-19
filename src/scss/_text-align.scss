@@ -1,15 +1,32 @@
 .text-center {
   text-align: center;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        text-align: center;
+      }
+    }
+  }
 }
 
 .text-left {
   text-align: left;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        text-align: left;
+      }
+    }
+  }
 }
 
 .text-right {
   text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
+  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
+    &--#{$nameBreakpointSuffix} {
+      @include respondTo(#{$valueBreakpointSuffix}) {
+        text-align: right;
+      }
+    }
+  }
 }
