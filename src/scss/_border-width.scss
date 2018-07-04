@@ -1,5 +1,14 @@
-@for $i from 1 through 5 {
+@for $i from 1 through 3 {
   .border-#{$i} {
     border-width: #{$i}px;
+  }
+}
+
+@for $i from 1 through 3 {
+  .border-bottom-#{$i} {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: #{$i}px;
+    border-left-width: 0;
   }
 }

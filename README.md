@@ -622,8 +622,9 @@ Usage examples:
 | `border-1` | `border-width: 1px` | :x: |
 | `border-2` | `border-width: 2px` | :x: |
 | `border-3` | `border-width: 3px` | :x: |
-| `border-4` | `border-width: 4px` | :x: |
-| `border-5` | `border-width: 5px` | :x: |
+| `border-bottom-1` | `border-top-width: 0;`<br />`border-right-width: 0;`<br />`border-bottom-width: 1px;`<br />`border-left-width: 0;` | :x: |
+| `border-bottom-2` | `border-top-width: 0;`<br />`border-right-width: 0;`<br />`border-bottom-width: 2px;`<br />`border-left-width: 0;` | :x: |
+| `border-bottom-3` | `border-top-width: 0;`<br />`border-right-width: 0;`<br />`border-bottom-width: 3px;`<br />`border-left-width: 0;` | :x: |
 
 <br />
 
