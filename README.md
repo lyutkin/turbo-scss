@@ -51,7 +51,7 @@ npm install turbo-scss
 - Sizing: [Width](#width), [Height](#height)  
 - Spacing: [Margin](#margin), [Padding](#padding)  
 - Interaction: [Hover](#hover), [Cursor](#cursor), [Pointer events](#pointer-events), [User select](#user-select)  
-- Appearance: [Opacity](#opacity), [Background position](#background-position), [Background size](#background-size), [Background repeat](#background-repeat), [Background color](#background-color), [Border radius](#border-radius), [Border width](#border-width), [Border style](#border-style), [Border color](#border-color)  
+- Appearance: [Opacity](#opacity), [Background position](#background-position), [Background size](#background-size), [Background repeat](#background-repeat), [Background color](#background-color), [Background attachment](#background-attachment), [Border radius](#border-radius), [Border width](#border-width), [Border style](#border-style), [Border color](#border-color)  
 - Text: [Font family](#font-family), [Font size](#font-size), [Font style](#font-style), [Font weight](#font-weight), [Letter spacing](#letter-spacing), [Line height](#line-height), [Vertical align](#vertical-align), [White space](#white-space), [Word break](#word-break), [Text transform](#text-transform), [Text decoration](#text-decoration), [Text align](#text-align), [Color](#color), [Typography](#typography)
 - Misc: [Reset](#reset), [Debug](#debug)
 
@@ -598,6 +598,15 @@ Usage examples:
 | `bg-white-15` | `background-color: rgba(255, 255, 255, 0.15)` | :x: |
 | `bg-white-10` | `background-color: rgba(255, 255, 255, 0.1)` | :x: |
 | `bg-white-5` | `background-color: rgba(255, 255, 255, 0.05)` | :x: |
+
+<br />
+
+### Background attachment
+[↑ Back to contents](#docs)
+
+| Class  | Style  | Breakpoint support |
+| - | - | :-: |
+| `bg-fixed` | `background-attachment: fixed` | :x: |
 
 <br />
 
