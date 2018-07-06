@@ -46,13 +46,13 @@ npm install turbo-scss
 ```
 
 # Docs
-- Responsiveness: [Breakpoint support](#breakpoint-support)
+- Responsiveness: [Breakpoint support](#breakpoint-support)  
 - Content flow: [Box sizing](#box-sizing), [Display](#display), [Flex](#flex), [Grid](#grid), [Overflow](#overflow), [Float](#float), [Position](#position), [Z-index](#z-index), [Toggle](#toggle)  
 - Sizing: [Width](#width), [Height](#height)  
 - Spacing: [Margin](#margin), [Padding](#padding)  
 - Interaction: [Hover](#hover), [Cursor](#cursor), [Pointer events](#pointer-events), [User select](#user-select)  
-- Appearance: [Opacity](#opacity), [Background position](#background-position), [Background size](#background-size), [Background repeat](#background-repeat), [Background color](#background-color), [Background attachment](#background-attachment), [Border radius](#border-radius), [Border width](#border-width), [Border style](#border-style), [Border color](#border-color)  
-- Text: [Font family](#font-family), [Font size](#font-size), [Font style](#font-style), [Font weight](#font-weight), [Letter spacing](#letter-spacing), [Line height](#line-height), [Vertical align](#vertical-align), [White space](#white-space), [Word break](#word-break), [Text transform](#text-transform), [Text decoration](#text-decoration), [Text align](#text-align), [Color](#color), [Typography](#typography)
+- Appearance: [Opacity](#opacity), [Background position](#background-position), [Background size](#background-size), [Background repeat](#background-repeat), [Background color](#background-color), [Background attachment](#background-attachment), [Border radius](#border-radius), [Border width](#border-width), [Border style](#border-style), [Border color](#border-color), [Transform](#transform)  
+- Text: [Font family](#font-family), [Font size](#font-size), [Font style](#font-style), [Font weight](#font-weight), [Letter spacing](#letter-spacing), [Line height](#line-height), [Vertical align](#vertical-align), [White space](#white-space), [Word break](#word-break), [Text transform](#text-transform), [Text decoration](#text-decoration), [Text align](#text-align), [Color](#color), [Typography](#typography)  
 - Misc: [Reset](#reset), [Debug](#debug)
 
 <br />
@@ -244,6 +244,9 @@ Usage examples:
 | `left-full` | `left: 100%` | :heavy_check_mark: |
 | `fixed` | `position: fixed` | :heavy_check_mark: |
 | `fill` | `top: 0`<br />`right: 0`<br />`bottom: 0`<br />`left: 0` | :heavy_check_mark: |
+| `center-x` | `left: 50%`<br />`transform: translateX(-50%)` | :heavy_check_mark: |
+| `center-y` | `top: 50%`<br />`transform: translateY(-50%)` | :heavy_check_mark: |
+| `center` | `top: 50%`<br />`left: 50%`<br />`transform: translate(-50%, -50%)` | :heavy_check_mark: |
 
 <br />
 
@@ -647,7 +650,6 @@ Usage examples:
 
 <br />
 
-
 ### Border color
 [↑ Back to contents](#docs)
 
@@ -693,6 +695,16 @@ Usage examples:
 | `border-white-15` | `border-color: rgba(255, 255, 255, 0.15)` | :x: |
 | `border-white-10` | `border-color: rgba(255, 255, 255, 0.1)` | :x: |
 | `border-white-5` | `border-color: rgba(255, 255, 255, 0.05)` | :x: |
+
+<br />
+
+### Transform
+[↑ Back to contents](#docs)
+
+| Class  | Style  | Breakpoint support |
+| - | - | :-: |
+| `flip-x` | `transform: scaleX(-1)` | :x: |
+| `flip-y` | `transform: scaleY(-1)` | :x: |
 
 <br />
 

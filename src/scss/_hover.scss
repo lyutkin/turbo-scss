@@ -1,12 +1,11 @@
 .dim {
   @include respondTo(desktop) {
-    opacity: 1;
     &:hover,
     &:focus {
       opacity: 0.75;
     }
     &:active {
-      opacity: 0.9;
+      opacity: 1;
     }
   }
 }

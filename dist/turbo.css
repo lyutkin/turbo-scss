@@ -434,6 +434,22 @@
   left: 0;
 }
 
+.center-x {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-y {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -1536,6 +1552,14 @@
   border-color: rgba(255, 255, 255, 0.05);
 }
 
+.flip-x {
+  transform: scaleX(-1);
+}
+
+.flip-y {
+  transform: scaleY(-1);
+}
+
 .font-serif {
   font-family: serif;
 }
@@ -2363,6 +2387,22 @@
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .center-x--sm {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center-y--sm {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center--sm {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .max-width-full--sm {
@@ -3329,6 +3369,22 @@
     left: 0;
   }
 
+  .center-x--md {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center-y--md {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center--md {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .max-width-full--md {
     max-width: 100%;
   }
@@ -4293,6 +4349,22 @@
     left: 0;
   }
 
+  .center-x--lg {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center-y--lg {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center--lg {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .max-width-full--lg {
     max-width: 100%;
   }
@@ -4775,17 +4847,13 @@
     padding-bottom: 8rem;
   }
 
-  .dim {
-    opacity: 1;
-  }
-
   .dim:hover,
   .dim:focus {
     opacity: 0.75;
   }
 
   .dim:active {
-    opacity: 0.9;
+    opacity: 1;
   }
 
   .font-xs--lg {
@@ -5268,6 +5336,22 @@
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .center-x--xl {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center-y--xl {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center--xl {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .max-width-full--xl {
@@ -6232,6 +6316,22 @@
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .center-x--xxl {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center-y--xxl {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center--xxl {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .max-width-full--xxl {
