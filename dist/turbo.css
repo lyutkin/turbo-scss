@@ -1384,6 +1384,10 @@
   border-style: solid;
 }
 
+.border-dashed {
+  border-style: dashed;
+}
+
 .border-dotted {
   border-style: dotted;
 }

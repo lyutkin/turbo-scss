@@ -646,6 +646,7 @@ Usage examples:
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
 | `border-solid` | `border-style: solid` | :x: |
+| `border-dashed` | `border-style: dashed` | :x: |
 | `border-dotted` | `border-style: dotted` | :x: |
 
 <br />
