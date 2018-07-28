@@ -1,43 +1,15 @@
 .tracking-tight {
   letter-spacing: -0.05em;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        letter-spacing: -0.05em;
-      }
-    }
-  }
 }
 
 .tracking-normal {
   letter-spacing: 0;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        letter-spacing: 0;
-      }
-    }
-  }
 }
 
 .tracking-wide {
   letter-spacing: 0.05em;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        letter-spacing: 0.05em;
-      }
-    }
-  }
 }
 
 .tracking-huge {
   letter-spacing: 0.1em;
-  @each $nameBreakpointSuffix, $valueBreakpointSuffix in $breakpointSuffixList {
-    &--#{$nameBreakpointSuffix} {
-      @include respondTo(#{$valueBreakpointSuffix}) {
-        letter-spacing: 0.1em;
-      }
-    }
-  }
 }

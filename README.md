@@ -256,18 +256,16 @@ Usage examples:
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
 | `z-0` | `z-index: 0` | :x: |
-| `z-1` | `z-index: 0` | :x: |
-| `z-2` | `z-index: 0` | :x: |
-| `z-3` | `z-index: 0` | :x: |
-| `z-4` | `z-index: 0` | :x: |
-| `z-5` | `z-index: 0` | :x: |
-| `z-6` | `z-index: 0` | :x: |
-| `z-7` | `z-index: 0` | :x: |
-| `z-8` | `z-index: 0` | :x: |
-| `z-9` | `z-index: 0` | :x: |
-| `z-10` | `z-index: 0` | :x: |
-| `z-999` | `z-index: 999` | :x: |
-| `z-9999` | `z-index: 9999` | :x: |
+| `z-1` | `z-index: 1` | :x: |
+| `z-2` | `z-index: 2` | :x: |
+| `z-3` | `z-index: 3` | :x: |
+| `z-4` | `z-index: 4` | :x: |
+| `z-5` | `z-index: 5` | :x: |
+| `z-6` | `z-index: 6` | :x: |
+| `z-7` | `z-index: 7` | :x: |
+| `z-8` | `z-index: 8` | :x: |
+| `z-9` | `z-index: 9` | :x: |
+| `z-10` | `z-index: 10` | :x: |
 | `z-max` | `z-index: 2147483647` | :x: |
 
 <br />
@@ -439,20 +437,29 @@ Usage examples:
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
 | `dim` | Change opacity on `hover`/`focus`/`active` <sup>1</sup> | :x: |
+| `shade` | Darken background color on `hover`/`focus`/`active` <sup>2</sup> | :x: |
 
 1.
-  ```css
-.dim {
-	opacity: 1;
-}
-
+```css
 .dim:hover,
 .dim:focus {
 	opacity: 0.75;
 }
 
 .dim:active {
-	opacity: 0.9;
+	opacity: 1;
+}
+ ```
+
+2.
+```css
+.shade:hover,
+.shade:focus {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.shade:active {
+	background-color: transparent;
 }
  ```
 
@@ -771,10 +778,10 @@ Usage examples:
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
-| `tracking-tight` | `letter-spacing: -0.05em` | :heavy_check_mark: |
-| `tracking-normal` | `letter-spacing: 0` | :heavy_check_mark: |
-| `tracking-wide` | `letter-spacing: 0.05em` | :heavy_check_mark: |
-| `tracking-huge` | `letter-spacing: 0.1em` | :heavy_check_mark: |
+| `tracking-tight` | `letter-spacing: -0.05em` | :x: |
+| `tracking-normal` | `letter-spacing: 0` | :x: |
+| `tracking-wide` | `letter-spacing: 0.05em` | :x: |
+| `tracking-huge` | `letter-spacing: 0.1em` | :x: |
 
 <br />
 
@@ -941,7 +948,7 @@ Usage examples:
 | - | - | :-: |
 | `table-fixed` | `table-layout: fixed` | :x: |
 | `table-collapse` | `border-collapse: collapse`<br />`border-spacing: 0` | :x: |
-| `list-reset` | `list-style: none`<br />`margin: 0`<br />`padding: 0` | :x: |
+| `list-reset` | `list-style: none` | :x: |
 
 <br />
 

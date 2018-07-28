@@ -494,14 +494,6 @@
   z-index: 10;
 }
 
-.z-999 {
-  z-index: 999;
-}
-
-.z-9999 {
-  z-index: 9999;
-}
-
 .z-max {
   z-index: 2147483647;
 }
@@ -1961,10 +1953,8 @@
   border-spacing: 0;
 }
 
-.list-reset {
+.list-style-none {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .debug,
@@ -2925,22 +2915,6 @@
 
   .font-5xl--sm {
     font-size: 4rem;
-  }
-
-  .tracking-tight--sm {
-    letter-spacing: -0.05em;
-  }
-
-  .tracking-normal--sm {
-    letter-spacing: 0;
-  }
-
-  .tracking-wide--sm {
-    letter-spacing: 0.05em;
-  }
-
-  .tracking-huge--sm {
-    letter-spacing: 0.1em;
   }
 
   .text-center--sm {
@@ -3907,22 +3881,6 @@
     font-size: 4rem;
   }
 
-  .tracking-tight--md {
-    letter-spacing: -0.05em;
-  }
-
-  .tracking-normal--md {
-    letter-spacing: 0;
-  }
-
-  .tracking-wide--md {
-    letter-spacing: 0.05em;
-  }
-
-  .tracking-huge--md {
-    letter-spacing: 0.1em;
-  }
-
   .text-center--md {
     text-align: center;
   }
@@ -4860,6 +4818,15 @@
     opacity: 1;
   }
 
+  .shade:hover,
+  .shade:focus {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .shade:active {
+    background-color: transparent;
+  }
+
   .font-xs--lg {
     font-size: 0.75rem;
   }
@@ -4894,22 +4861,6 @@
 
   .font-5xl--lg {
     font-size: 4rem;
-  }
-
-  .tracking-tight--lg {
-    letter-spacing: -0.05em;
-  }
-
-  .tracking-normal--lg {
-    letter-spacing: 0;
-  }
-
-  .tracking-wide--lg {
-    letter-spacing: 0.05em;
-  }
-
-  .tracking-huge--lg {
-    letter-spacing: 0.1em;
   }
 
   .text-center--lg {
@@ -5876,22 +5827,6 @@
     font-size: 4rem;
   }
 
-  .tracking-tight--xl {
-    letter-spacing: -0.05em;
-  }
-
-  .tracking-normal--xl {
-    letter-spacing: 0;
-  }
-
-  .tracking-wide--xl {
-    letter-spacing: 0.05em;
-  }
-
-  .tracking-huge--xl {
-    letter-spacing: 0.1em;
-  }
-
   .text-center--xl {
     text-align: center;
   }
@@ -6854,22 +6789,6 @@
 
   .font-5xl--xxl {
     font-size: 4rem;
-  }
-
-  .tracking-tight--xxl {
-    letter-spacing: -0.05em;
-  }
-
-  .tracking-normal--xxl {
-    letter-spacing: 0;
-  }
-
-  .tracking-wide--xxl {
-    letter-spacing: 0.05em;
-  }
-
-  .tracking-huge--xxl {
-    letter-spacing: 0.1em;
   }
 
   .text-center--xxl {
