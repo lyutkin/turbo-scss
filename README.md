@@ -39,6 +39,16 @@
 
 <br />
 
+- You can get it right away via `CDN`:
+
+```html
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/turbo-scss@5.0.2/dist/turbo.min.css">
+</head>
+```
+
+<br />
+
 - To customize the build, install it via `npm`:
 
 ```bash
