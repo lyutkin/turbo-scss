@@ -53,7 +53,7 @@ npm install turbo-scss
 - Interaction: [Hover](#hover), [Cursor](#cursor), [Pointer events](#pointer-events), [User select](#user-select)  
 - Appearance: [Opacity](#opacity), [Background position](#background-position), [Background size](#background-size), [Background repeat](#background-repeat), [Background color](#background-color), [Background attachment](#background-attachment), [Border radius](#border-radius), [Border width](#border-width), [Border style](#border-style), [Border color](#border-color), [Transform](#transform)  
 - Text: [Font family](#font-family), [Font size](#font-size), [Font style](#font-style), [Font weight](#font-weight), [Letter spacing](#letter-spacing), [Line height](#line-height), [Vertical align](#vertical-align), [White space](#white-space), [Word break](#word-break), [Text transform](#text-transform), [Text decoration](#text-decoration), [Text align](#text-align), [Color](#color), [Typography](#typography)  
-- Misc: [Reset](#reset), [Debug](#debug)
+- Misc: [Table](#table), [List](#list), [Debug](#debug)
 
 <br />
 
@@ -941,14 +941,22 @@ Usage examples:
 
 <br />
 
-### Reset
+### Table
 [↑ Back to contents](#docs)
 
 | Class  | Style  | Breakpoint support |
 | - | - | :-: |
 | `table-fixed` | `table-layout: fixed` | :x: |
 | `table-collapse` | `border-collapse: collapse`<br />`border-spacing: 0` | :x: |
-| `list-reset` | `list-style: none` | :x: |
+
+<br />
+
+### List
+[↑ Back to contents](#docs)
+
+| Class  | Style  | Breakpoint support |
+| - | - | :-: |
+| `list-style-none` | `list-style: none` | :x: |
 
 <br />
 
