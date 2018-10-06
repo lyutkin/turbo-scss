@@ -1,3 +1,6 @@
+# ⚠️ Project has been discontinued in favor of [Cocktail](https://github.com/lyutkin/cocktailcss)
+
+<br />
 
 ![logo](https://github.com/lyutkin/turbo-scss/raw/master/logo.png)
 
