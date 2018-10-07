@@ -1,69 +1,65 @@
-/**
- * config
- */
-@import 'config/variable';
-@import 'config/media-query';
+// config
+@import "config/variable";
+@import "config/media-query";
 
-/**
- * style
- */
-@import 'box-sizing';
-@import 'display';
-@import 'toggle';
+// style
+@import "box-sizing";
+@import "display";
+@import "toggle";
 
-@import 'flex';
-@import 'grid';
+@import "flex";
+@import "grid";
 
-@import 'overflow';
-@import 'float';
+@import "overflow";
+@import "float";
 
-@import 'position';
-@import 'z-index';
+@import "position";
+@import "z-index";
 
-@import 'width';
-@import 'height';
+@import "width";
+@import "height";
 
-@import 'margin';
-@import 'padding';
+@import "margin";
+@import "padding";
 
-@import 'hover';
-@import 'cursor';
-@import 'pointer-events';
-@import 'user-select';
+@import "hover";
+@import "cursor";
+@import "pointer-events";
+@import "user-select";
 
-@import 'opacity';
+@import "opacity";
 
-@import 'background-position';
-@import 'background-size';
-@import 'background-repeat';
-@import 'background-color';
-@import 'background-attachment';
+@import "background-position";
+@import "background-size";
+@import "background-repeat";
+@import "background-color";
+@import "background-attachment";
 
-@import 'border-radius';
-@import 'border-width';
-@import 'border-style';
-@import 'border-color';
+@import "border-radius";
+@import "border-width";
+@import "border-style";
+@import "border-color";
 
-@import 'transform';
+@import "transform";
 
-@import 'font-family';
-@import 'font-size';
-@import 'font-style';
-@import 'font-weight';
+@import "font-family";
+@import "font-size";
+@import "font-style";
+@import "font-weight";
 
-@import 'letter-spacing';
-@import 'line-height';
-@import 'vertical-align';
-@import 'white-space';
-@import 'word-break';
-@import 'text-transform';
-@import 'text-decoration';
-@import 'text-align';
+@import "letter-spacing";
+@import "line-height";
+@import "vertical-align";
+@import "white-space";
+@import "word-break";
+@import "text-transform";
+@import "text-decoration";
+@import "text-align";
 
-@import 'color';
-@import 'typography';
+@import "color";
+@import "typography";
 
-@import 'table';
-@import 'list-style';
+@import "table";
+@import "list-style";
 
-@import 'debug';
+@import "debug";
